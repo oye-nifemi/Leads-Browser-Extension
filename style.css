@@ -1,0 +1,21 @@
+#input-el{
+      height: 30px;
+      width: 100%;
+      box-sizing: border-box;
+      /* width: 350px; */
+      border: 2px solid limegreen;
+}
+
+#button-el{
+      height: 36px;
+      width: 150px;
+      margin: 10px 0;
+      background-color: limegreen;
+      border: none;
+      font-weight: bold;
+      color: white;
+}
+#button-el:hover{
+      cursor: pointer;
+      background-color: rgb(34, 139, 34);
+}
