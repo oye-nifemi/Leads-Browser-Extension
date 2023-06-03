@@ -1,12 +1,15 @@
+body{
+      min-width: 400px;
+}
+
 #input-el{
       height: 30px;
       width: 100%;
       box-sizing: border-box;
-      /* width: 350px; */
       border: 2px solid limegreen;
 }
 
-#button-el{
+#input-btn{
       height: 36px;
       width: 150px;
       margin: 10px 0;
@@ -15,7 +18,26 @@
       font-weight: bold;
       color: white;
 }
-#button-el:hover{
+#input-btn:hover{
       cursor: pointer;
       background-color: rgb(34, 139, 34);
 }
+
+#ul-el{
+      margin: 5px 0;
+}
+
+ul {
+      margin-top: 20px;
+      list-style: none;
+      padding-left: 0;
+  }
+  
+  li {
+      margin-top: 5px;
+      font-size: 20px;
+  }
+  
+  a {
+      color: #5f9341;
+  }
