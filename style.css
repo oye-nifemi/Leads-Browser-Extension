@@ -9,7 +9,7 @@ body{
       border: 2px solid limegreen;
 }
 
-#input-btn{
+button{
       height: 36px;
       width: 150px;
       margin: 10px 0;
@@ -18,9 +18,20 @@ body{
       font-weight: bold;
       color: white;
 }
-#input-btn:hover{
+button:hover{
       cursor: pointer;
       background-color: rgb(34, 139, 34);
+}
+#clear-btn{
+      border: 2px solid limegreen;
+      background-color: white;
+      color: limegreen;
+}
+#clear-btn:hover{
+      cursor: pointer;
+      border: 2px solid rgb(155, 12, 2);
+      background-color: rgb(155, 12, 2);
+      color: white;
 }
 
 #ul-el{
